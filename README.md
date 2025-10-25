@@ -35,15 +35,14 @@ This project aims to design and develop user interface equipped SQL AI Agents wi
 
 ## Defining Workflow
 
-<image>
+![workflow](https://github.com/gaurav-patil-git/08_SQL_AI_Agent/blob/main/visuals/workflow.png)
   
 ## Developing Agents
 
 ### Step 1: Generate API Key
 
-<images>
+![generate-api-key](https://github.com/gaurav-patil-git/08_SQL_AI_Agent/blob/main/visuals/generate-api-key.png)
   
-
 ### Step 2: Prepare and Test LLM
 ```
 from crewai import LLM
@@ -87,23 +86,32 @@ result
 
 ### Step 5: Developing Interface
 - Used **Prompt 2** to integrate agent and develop a Tkinter GUI.
-<image>
+
+![gui-interface](https://github.com/gaurav-patil-git/08_SQL_AI_Agent/blob/main/visuals/gui-interface.png)
 
 <h2><a class="anchor" id="business-questions--key-findings"></a>📈 Business Questions & Key Findings</h2>
 
 ### Define business question:
 
+- Business question: Leadership wants to know the total number of newly launched products accross segments and their contribution in revenue.
+- Input prompt: 
+```
+Generate a query to compute the increae in unique product counts in each segments in F.Y. 2021 and
+how much revenue the new products contributed in whole of each segment.
+Output:
+segment | unique_products_2020 | unique_products_2021 | new_unique_products | total_revenue_2021 | revenue_by_new_products | pct_of_total_revenue | rest_revenue
+```
 
 
 ### Designing presentation using Gamma AI
 
-- Used **Prompt 3 ** to design presentation slide
+- Used **Prompt 3** to design presentation slide
 
-<image>
+![gamma-draft-ppt](https://github.com/gaurav-patil-git/08_SQL_AI_Agent/blob/main/visuals/gamma-draft-ppt.png)
 
 - Modified and Changed the final formatting with company standard
 
- <image>
+![presentation-slide](https://github.com/gaurav-patil-git/08_SQL_AI_Agent/blob/main/visuals/presentation-slide.png)
 
 <h2><a class="anchor" id="author-contact"></a>📝 Author & Contact</h2>
 
